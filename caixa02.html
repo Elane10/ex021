@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif; /*fonte da letra*/
+            background-color: antiquewhite; /* cor de fundo da pagina*/
+        }
+        header {
+            background-color: white; /* cor do titulo*/
+            padding: 10px; /*tamanho da*/
+            margin: 10px; /* */
+        }
+        nav {
+            background-color: rgb(171, 176, 185); /* */
+            padding: 3px; /* */
+            text-decoration: none; /* */
+            font-weight: bold; /* */
+            box-shadow: 1px 2px 2px rgba(5, 13, 39, 0.522); /*criar sombras*/
+        }
+        nav > a {
+            text-decoration: none; /*tirar o underline do link*/
+            color: rgb(246, 243, 255); /* cor do link */
+            font-weight: bold; /*cor da fonte*/
+        }
+        nav > a:hover {
+            text-decoration: underline; /*colocar o underline qdo passa o mouse */
+        }
+        main {
+            background-color: white; 
+            padding: 10px; 
+            margin: 10px; 
+            border-radius: 10px 20px 30px;/* arredondar as bordas */
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.447); /* criar sombras nas bordas */
+        }
+        article {
+            background-color: blanchedalmond;
+            padding: 5px;
+        }
+        footer {
+            background-color: black; 
+            color: white; 
+            padding: 1px; 
+            margin: 0px;
+            text-align: center; /* texto no centro*/
+        }
+        footer > p {
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px; 
+            width: 100px;
+            margin: 10px;
+            background-color: rgb(72, 11, 11);    /*criar bolas arredondadas */
+            border-radius: 50%;
+        } 
+
+    </style>
+</head>
+<body>
+    <header> 
+        <h1>Costruindo meu site </h1> 
+        <nav>
+            <a href="link">link</a>
+            <a href="link">link</a>
+            <a href="link">link</a>
+            <a href="link">link</a>
+        </nav>
+       </header>
+    <main>
+      <section id="Noticias">
+        <article>
+            <h2>Noticias sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Possimus, dolorum hic facere mollitia quae neque repellat 
+                ipsa libero ut. Quos sunt ipsum, vitae ut nemo quasi nulla 
+                quas quibusdam obcaecati.</p>
+            <aside>
+                <p>Artigo escrito por Elane</p>
+            </aside>
+        </article>
+    </section>
+    <section id="Assuntos">
+    </section>
+    </main>
+    </section>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
